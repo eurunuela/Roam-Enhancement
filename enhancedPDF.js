@@ -634,6 +634,7 @@ function startC3PdfExtension() {
   }
 
   function updateHighlightData(newColorNum, toUpdateHlTextUid) {
+    console.log(toUpdateHlTextUid);
     const toUpdateHlDataRowUid = getHighlightDataBlockUid(toUpdateHlTextUid);
     const toUpdateHlInfoUid = c3u.getNthChildUid(toUpdateHlDataRowUid, 0);
     const toUpdateHlInfoString = c3u.blockString(toUpdateHlInfoUid);
