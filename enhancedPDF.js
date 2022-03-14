@@ -32,7 +32,8 @@ if (typeof ccc !== "undefined" && typeof ccc.util !== "undefined") {
 } else {
   let s = document.createElement("script");
   s.type = "text/javascript";
-  s.src = "https://c3founder.github.io/Roam-Enhancement/enhancedUtility.js";
+  s.src =
+    "https://raw.githubusercontent.com/eurunuela/Roam-Enhancement/main/enhancedPDF.js";
   s.id = "c3util4pdf";
   s.onload = () => {
     startC3PdfExtension();
